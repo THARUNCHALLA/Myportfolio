@@ -1,0 +1,67 @@
+.WholeContainer{
+    background-color:rgba(19, 19,19,0.8);
+    width:350px;
+    height:400px;
+    padding:20px;
+    margin-left:18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.IndividualContainer{
+    max-width:340px;
+    height:400px;
+}
+.ImageContainer{
+    width:340px;
+    height:250px;
+}
+.Image12{
+    height:100%;
+    width:100%;
+}
+.TITLE{
+    color:white;
+    font-family:breeserif;
+    text-decoration:underline;
+    font-size:18px;
+    font-weight:bold;
+}
+.information{
+    color:white;
+    font-family:roboto;
+    font-size:10px;
+    font-weight:100;
+}
+.BUTTONSCONTAINER{
+    max-width:340px;
+    height:400px;
+    display:flex;
+    justify-content:space-between;
+}
+.ViewButton{
+    background-color:yellow;
+    border:none;
+    height:24px;
+    width:80px;
+    cursor: pointer;
+}
+.ViewButton:hover{
+    background-color:orange;
+    color: white;
+}
+@media (max-width:640px){
+    .WholeContainer{
+        width:240px;
+        height:300px;
+        padding:20px;
+        margin-bottom:18px;
+    }
+    .IndividualContainer{
+        max-width:240px;
+        height:200px;
+    }
+    .ImageContainer{
+        width:240px;
+        height:130px;
+    }
+}

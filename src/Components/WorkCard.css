@@ -1,0 +1,12 @@
+.UNORDERED{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.projectHeading{
+    font-family:"breeserif";
+    color:white;
+    font-size:1.6rem;
+    text-align:center;
+}
