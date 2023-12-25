@@ -31,17 +31,6 @@
     align-items:center;
     margin-top:10px;
 }
-.CONTACT{
-    background-color:yellow;
-    border:none;
-    height:24px;
-    width:80px;
-    cursor: pointer;
-}
-.CONTACT:hover{
-    background-color:orange;
-    color: white;   
-}
 .right .img-container{
     display: grid;
     grid-template-columns:repeat(12,1fr);

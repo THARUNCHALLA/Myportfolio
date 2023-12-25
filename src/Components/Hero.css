@@ -29,7 +29,7 @@ body{
     top:0;
     left:0;
     background-color:#000;
-    opacity:0.8;
+    opacity:.4;
 }
 .banner-text {
     position: absolute;
@@ -39,6 +39,23 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.p {
+    color:black;
+    font-style:italic;
+    font-family:breeserif;
+    font-weight:bold;
+    font-size:38px;
+    margin:0px;
+    text-align: center;
+}
+.h1 {
+    color: white;
+    font-family: roboto;
+    margin: 0px;
+    font-size:22px;
+    margin-top: 10px;
+    text-align: center
 }
 @media (max-width:1000px){
     .banner-text {
@@ -50,52 +67,110 @@ body{
         justify-content: center;
         align-items: center;
     } 
+    .p{
+        font-size:22px;
+    }
 }
 
-.p {
-    color: white;
-    font-family: roboto;
-    margin: 0px;
-    text-align: center;
-}
-
-.h1 {
-    color: white;
-    font-family: roboto;
-    margin: 0px;
-    margin-top: 10px;
-    text-align: center
-}
 .ButtonContainer{
     margin-top:20px;
 }
 
-
 .button1 {
-    height: 28px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
     cursor: pointer;
+    position: relative;
     text-transform: uppercase;
-    background-color: yellow;
-    border: 1px solid #fff;
+    background-color:black;
+    box-shadow: 0px 0px 5px  rgba(255,255,255,0.6);
+    transition: 0.5s;
+    border:none;
+}
+.button1::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    border-top:2px solid white;
+    border-right:2px solid white;
+    animation: border-top 3s linear infinite alternate;
+}
+.button1:hover {
+    background:rgb(19, 17, 17);
+    box-shadow: 0px 0px 10px  rgba(255,255,255,0.6);;
+  }
+
+@keyframes border-top {
+    0%{width:0px;height:0px}
+    25%{width:120px;height:0px;}
+    50%{width:120px;height:38px;}
+    100%{width:120px;height:38px;}
+}
+.button1::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:0;
+    border-bottom:2px solid white;
+    border-left:2px solid white;
+    animation: border-bottom 3s linear infinite alternate;
 }
 
-.button1:hover {
-    background-color: #e6ffff;
+@keyframes border-bottom {
+    0%{width:0px;height:0px;opacity:0}
+    50%{width:0px;height:0px;opacity:0}
+    50.1%{width:0px;height:0px;opacity:1}
+    75%{width:120px;height:0px;opacity:1}
+    100%{width:120px;height:38px;opacity:1}
 }
 
 .button2 {
-    height: 28px;
-    width: 100px;
-    margin-left: 14px;
+    height:40px;
+    width: 120px;
+    position: relative;
+    margin-left:24px;
     color: white;
-    border: 1px solid #fff;
+    border:none;
     cursor: pointer;
     background-color: transparent;
     text-transform: uppercase;
 }
-
+.button2::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    border-top:2px solid white;
+    border-right:2px solid white;
+    animation: border-top1 3s linear infinite alternate;
+}
 .button2:hover {
-    background-color: black;
+    background:rgb(19, 17, 17);
+    box-shadow: 0px 0px 10px  rgba(255,255,255,0.6);;
+  }
+@keyframes border-top1 {
+    0%{width:0px;height:0px}
+    25%{width:120px;height:0px;}
+    50%{width:120px;height:38px;}
+    100%{width:120px;height:38px;}
+}
+.button2::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:0;
+    border-bottom:2px solid white;
+    border-left:2px solid white;
+    animation: border-bottom1 3s linear infinite alternate;
 }
 
+@keyframes border-bottom1 {
+    0%{width:0px;height:0px;opacity:0}
+    50%{width:0px;height:0px;opacity:0}
+    50.1%{width:0px;height:0px;opacity:1}
+    75%{width:120px;height:0px;opacity:1}
+    100%{width:120px;height:38px;opacity:1}
+}

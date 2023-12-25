@@ -10,7 +10,7 @@ const AboutContent = () => {
             <p className='ParaGraph'>Im a React Front-End Developer. I Create Responsive Websites.</p>
             <div className='contactButton'>
             <Link to="/Contact">
-            <button className='CONTACT'>CONTACT</button>
+            <button className='button2'>CONTACT</button>
             </Link>
             </div>
         </div>

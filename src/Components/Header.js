@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink,useNavigate } from 'react-router-dom'
 import { RxHamburgerMenu,RxCross2 } from "react-icons/rx";
 
 import "./Header.css"
@@ -8,6 +8,7 @@ const Header = () => {
     const [value,setvalue]=useState(false)
     const clickHumberg=()=>setvalue(!value)
     const [color,setColor]=useState(false)
+    const navigate = useNavigate()
     const changeEvent=()=>{
         if(window.scrollY>100){
             setColor(true)
@@ -17,9 +18,13 @@ const Header = () => {
         }
     }
     window.addEventListener("scroll",changeEvent)
+
+   const  onclickimage=()=>{
+        navigate("/")
+    }
   return (
         <div className={color?'MainContainer MainContainer-bg':"MainContainer"}>
-        <NavLink to="/"><h1 className='hj'>Portfolio</h1></NavLink>
+        <img src="https://clipground.com/images/graduation-cap-png-transparent-3.png" className='IMAGE1234' alt="image1" onClick={onclickimage}/>
         <ul className={value?"navmenu active":"navmenu"}>
             <li>
                 <NavLink to="/">Home</NavLink>

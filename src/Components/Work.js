@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import "./Work.css"
 
 const Work = (props) => {
@@ -15,8 +16,8 @@ const Work = (props) => {
                     <div>
                         <p className='information'>{information}</p>
                         <div className='BUTTONSCONTAINER'>
-                            <a href={view} target='_blank' rel="noreferrer"><button className='ViewButton'>VIEW</button></a>
-                            <a href={source} target='_blank' rel="noreferrer"><button className='ViewButton'>SOURCE</button></a>
+                            <a href={view} target='_blank' rel="noreferrer">VIEW <FaArrowUpRightFromSquare/></a>
+                            <a href={source} target='_blank' rel="noreferrer">SOURCE <FaArrowUpRightFromSquare/></a>
                         </div>
                     </div>
                 </div>

@@ -5,11 +5,11 @@ const Form = () => {
     <div className='form'>
         <form>
             <label>Your Name</label>
-            <input type="text"/>
+            <input type="text" required/>
             <label>Email</label>
-            <input type="email"/>
+            <input type="email" required/>
             <label>Subject</label>
-            <input type="text"/>
+            <input type="text" required/>
             <label>Message</label>
             <textarea rows="6" cols="50" placeholder='Type Your Message Here'/>
             <button className='ViewButton1'>Submit</button>

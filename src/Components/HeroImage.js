@@ -8,7 +8,7 @@ const HeroImage = (props) => {
         <div className='HeroContainer'>
             <div className='HeroInsideContainer'>
                 <h1 className='HEAD'>{heading}</h1>
-                <p className='p'>{text}</p>
+                <p className='p1'>{text}</p>
             </div>
         </div>
   )

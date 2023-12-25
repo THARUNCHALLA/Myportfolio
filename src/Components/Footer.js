@@ -8,8 +8,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='right'>
                     <h1 className='about'>Personal Information</h1>
-
-                    <a href="https://maps.app.goo.gl/T733zpaP1p7cbaBt5" target="_blank" rel="noreferrer">
+                <a href="https://maps.app.goo.gl/T733zpaP1p7cbaBt5" target="_blank" rel="noreferrer">
                         <div className='location'><FaHome size={22} style={{ color: "white" }} />
                             <div className='containerforlocation'>
                                 <p className="Village">2-181 palukurivaripalem</p>

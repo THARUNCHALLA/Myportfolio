@@ -1,19 +1,22 @@
 .WholeContainer{
     background-color:rgba(19, 19,19,0.8);
-    width:350px;
-    height:400px;
+    width:300px;
+    height:300px;
     padding:20px;
-    margin-left:18px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-left:30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius:14px;
+    transition:2s;
 }
 
 .IndividualContainer{
-    max-width:340px;
-    height:400px;
+    max-width:300px;
+    height:300px;
 }
 .ImageContainer{
-    width:340px;
-    height:250px;
+    width:300px;
+    height:160px;
 }
 .Image12{
     height:100%;
@@ -21,14 +24,14 @@
 }
 .TITLE{
     color:white;
-    font-family:breeserif;
+    font-family:"breeserif";
     text-decoration:underline;
     font-size:18px;
     font-weight:bold;
 }
 .information{
     color:white;
-    font-family:roboto;
+    font-family:Arial, Helvetica, sans-serif;
     font-size:10px;
     font-weight:100;
 }
@@ -38,16 +41,13 @@
     display:flex;
     justify-content:space-between;
 }
-.ViewButton{
-    background-color:yellow;
-    border:none;
-    height:24px;
-    width:80px;
-    cursor: pointer;
+.BUTTONSCONTAINER a:hover{
+    color:lightgreen;
 }
-.ViewButton:hover{
-    background-color:orange;
-    color: white;
+.WholeContainer:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index:1;
 }
 @media (max-width:640px){
     .WholeContainer{
