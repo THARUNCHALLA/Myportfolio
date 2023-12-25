@@ -54,6 +54,8 @@
         width:240px;
         height:300px;
         padding:20px;
+        margin:0px;
+        margin-right:32px;
         margin-bottom:18px;
     }
     .IndividualContainer{

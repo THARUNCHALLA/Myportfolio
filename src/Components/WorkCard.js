@@ -36,7 +36,7 @@ const projectData = [
 
 const WorkCard = () => {
   return (
-    <div>
+    <div className='tharuncontainer'>
         <h1 className='projectHeading'>Projects</h1>
        <ul className='UNORDERED'>
        {projectData.map(each=><Work user={each} key={each.id}/>)}
