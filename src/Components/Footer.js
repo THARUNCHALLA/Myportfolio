@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </a>
 
-                        <a href="https://challatharun31@gmail.com" target="_blank" rel="noreferrer">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new//challatharun31@gmail.com" target="_blank" rel="noreferrer">
                         <div className='location'>
                             <FaMailBulk size={22} style={{ color: "white" }} />
                             <div className='containerforlocation'>
@@ -39,7 +39,7 @@ const Footer = () => {
                         <h1 className='about'>About</h1>
                         <p className='Village'>I'm Tharun Challa, a passionate frontend developer with a keen eye for crafting immersive and user-centric digital experiences. I specialize in translating creative designs into seamless, interactive, and responsive web applications..</p>
                         <div className='social'>
-                            <a href='https://www.facebook.com/stories/113635216498345/UzpfSVNDOjExMDg5Mjg0MDAzMDQ4MTM=/?bucket_count=9&source=story_tray' target='_blank' rel="noreferrer"><FaFacebook size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
+                            <a href='https://www.facebook.com/' target='_blank' rel="noreferrer"><FaFacebook size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                             <a href="https://www.linkedin.com/in/tharun-challa-a59739248/" target='_blank' rel="noreferrer"><FaLinkedin size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                             <a href='https://www.instagram.com/?hl=en' target='_blank' rel="noreferrer"><FaInstagram size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                             <a href='https://github.com/' target='_blank' rel="noreferrer"><FaGithub size={22} style={{ color: "white", marginRight: "1rem" }} /></a>

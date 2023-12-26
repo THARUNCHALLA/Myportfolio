@@ -5,6 +5,7 @@ import "./Work.css"
 const Work = (props) => {
     const { user } = props
     const { image1, information, title, view,source } = user
+    
     return (
         <div className='WholeContainer'>
             <div className='IndividualContainer'>
