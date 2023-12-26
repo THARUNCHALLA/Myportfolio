@@ -1,6 +1,7 @@
 .TotalContainer{
     display:flex;
     margin-bottom:20px;
+    margin-top:40px;
 }
 .left{
     display:flex;
@@ -60,5 +61,6 @@
     }
     .left{
         width:100%;
+        margin-bottom:30px;
     }
 }

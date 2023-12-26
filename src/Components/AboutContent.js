@@ -17,7 +17,7 @@ const AboutContent = () => {
         <div className='right'>
             <div className='img-container'>
             <div className='image-stack top'>
-                <img src="https://code.visualstudio.com/assets/docs/nodejs/reactjs/suggestions.png" alt="Top" className='img'/>
+                <img src="https://code.visualstudio.com/assets/docs/nodejs/reactjs/bracket-matching.png" alt="Top" className='img'/>
                 </div>
                 <div className='image-stack bottom'>
                     <img src="https://tas.co.in/wp-content/uploads/2020/05/Screenshot-28.png" alt="Bottom" className='img'/>

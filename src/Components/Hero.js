@@ -14,8 +14,7 @@ const Hero = () => {
             <div className='social'>
             <a href="https://www.linkedin.com/in/tharun-challa-a59739248/" target='_blank' rel="noreferrer"><FaLinkedin size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                             <a href='https://www.facebook.com/stories/113635216498345/UzpfSVNDOjExMDg5Mjg0MDAzMDQ4MTM=/?bucket_count=9&source=story_tray' target='_blank' rel="noreferrer"><FaFacebook size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
-                  
-                            <a href='https://www.instagram.com/?hl=en' target='_blank' rel="noreferrer"><FaInstagram size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
+                  <a href='https://www.instagram.com/?hl=en' target='_blank' rel="noreferrer"><FaInstagram size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                             <a href='https://github.com/' target='_blank' rel="noreferrer"><FaGithub size={22} style={{ color: "white", marginRight: "1rem" }} /></a>
                         </div>
             <div className='ButtonContainer'>

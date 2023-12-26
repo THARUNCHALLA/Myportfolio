@@ -64,8 +64,6 @@
         transform: scale(1.10);
         box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.2);
     }
-
-    /* Zoom effect for small devices */
     .WholeContainer:hover .ImageContainer {
         transform: scale(1.1); /* Adjust the scale factor as needed */
     }
