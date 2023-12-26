@@ -53,7 +53,7 @@ const Education = () => {
                 <div className='IMAGECONTAINER' onMouseOver={mouse1} onMouseOut={MOUSE1}>
                     <div className='IMAGE1234'><img src="https://lh3.googleusercontent.com/p/AF1QipMWQAgwGwJ-tBOpQ0yHQ5oiS8YYgrks7TCJ18lv=s1280-p-no-v1" alt="btech" className='btech' /></div>
                     <div className='INSIDEANOTHERCONTAINER'>
-                        {THARUN1 && <button className='tharun1234'>77.8%</button>}
+                        {THARUN1 && <button className='tharun1234'>97.10%</button>}
                         {!THARUN1 && <div className='navmenu1'>
                         <div className='TharunImage'>
                             <img src={THARUN12} alt='tharun'/>
@@ -69,7 +69,7 @@ const Education = () => {
                 <div className='IMAGECONTAINER' onMouseOver={mouse2} onMouseOut={MOUSE2}>
                     <div className='IMAGE1234'><img src="https://indianapublicmedia.org/stateimpact/files/2012/02/IMG_0829.jpg" alt="btech" className='btech' /></div>
                     <div className='INSIDEANOTHERCONTAINER'>
-                        {THARUN2 && <button className='tharun1234'>77.8%</button>}
+                        {THARUN2 && <button className='tharun1234'>95.00%</button>}
                         {!THARUN2 && <div className='navmenu1'>
                         <div className='TharunImage'>
                             <img src={THARUN12} alt='tharun'/>
