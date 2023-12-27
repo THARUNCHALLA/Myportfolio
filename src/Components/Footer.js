@@ -3,6 +3,9 @@ import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPh
 import "./Footer.css"
 
 const Footer = () => {
+const sendEmail=()=> {
+        window.location.href = 'mailto:challatharun31@gmail.com';
+    }
     return (
         <div className='footer'>
             <div className='footer-container'>
@@ -24,15 +27,12 @@ const Footer = () => {
                             </div>
                             </div>
                         </a>
-
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new//challatharun31@gmail.com" target="_blank" rel="noreferrer">
                         <div className='location'>
-                            <FaMailBulk size={22} style={{ color: "white" }} />
+                            <FaMailBulk size={22} style={{ color: "white" }} onClick={sendEmail}/>
                             <div className='containerforlocation'>
                                 <p className="Village">challatharun31@gmail.com</p>
                             </div>
                             </div>
-                        </a>
                 </div>
                 <div className='right'>
                     <div>
