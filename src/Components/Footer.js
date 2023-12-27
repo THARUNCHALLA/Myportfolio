@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </a>
 
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new//challatharun31@gmail.com" target="_blank" rel="noreferrer">
+                        <a href="mailto:challatharun31@gmail.com" target="_blank" rel="noreferrer">
                         <div className='location'>
                             <FaMailBulk size={22} style={{ color: "white" }} />
                             <div className='containerforlocation'>
