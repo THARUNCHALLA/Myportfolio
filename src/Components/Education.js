@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import THARUN12 from "../assets/Tharunchalla.jpg"
+import school from "../assets/Screenshot 2023-12-27 152219.png"
 import "./Education.css"
 
 const Education = () => {
@@ -67,7 +68,7 @@ const Education = () => {
                     </div>
                 </div>
                 <div className='IMAGECONTAINER' onMouseOver={mouse2} onMouseOut={MOUSE2}>
-                    <div className='IMAGE1234'><img src="https://indianapublicmedia.org/stateimpact/files/2012/02/IMG_0829.jpg" alt="btech" className='btech' /></div>
+                    <div className='IMAGE1234'><img src={school} alt="btech" className='btech' /></div>
                     <div className='INSIDEANOTHERCONTAINER'>
                         {THARUN2 && <button className='tharun1234'>95.00%</button>}
                         {!THARUN2 && <div className='navmenu1'>
