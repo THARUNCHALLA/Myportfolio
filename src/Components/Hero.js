@@ -18,7 +18,7 @@ const Hero = () => {
                         </div>
             <div className='ButtonContainer'>
                 <Link to="/Project"><button className='button1'>Project</button></Link>
-               <button className='button2'>LinkedIn</button>
+               <button className='button2'>Contact</button>
             </div>
         </div>
     </div>
